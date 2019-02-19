@@ -5,7 +5,9 @@
 
 #### 软件架构
 软件架构说明
-
+1. 采用VS2015进行编译,静态编译
+2. 首先下载vcpkg，采用cvpkg进行软件包依赖的配置
+3. 使用vcpkg下载 cpr:x86-windows-static nlohmann-json:x86-windows-static
 
 #### 安装教程
 
